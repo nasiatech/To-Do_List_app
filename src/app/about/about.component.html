@@ -1,0 +1,10 @@
+<p>
+    This is a to-do list app. To get started, insert your To-do list item in the form on the home page and click submit.
+    <a href="" (click)="sendMeHome()"><strong>Take me home</strong></a>
+</p>
+
+<ul>
+    <li *ngFor="let goal of goals">
+        {{ goal }}
+    </li>
+</ul>
